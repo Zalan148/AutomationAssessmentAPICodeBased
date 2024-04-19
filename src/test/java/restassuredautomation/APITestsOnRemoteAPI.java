@@ -80,7 +80,6 @@ public class APITestsOnRemoteAPI {
     public void patch(){
         JSONObject request = new JSONObject();
         request.put("name", "Zalan");
-        request.put("job", "SeniorTestAnalyst");
         System.out.println(request.toJSONString());
 
         baseURI = "https://reqres.in";
